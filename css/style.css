@@ -1,0 +1,109 @@
+:root {
+--gryfRed1: #740001;
+--gryfRed2: #AE0001;
+--gryfGold1: #D3A625;
+--gryfGold2: #EEBA30;
+--gryfBlack: #000000;
+}
+
+
+/* GLOBAL STYLES */
+.text_center {
+    text-align: center;
+}
+
+
+/* HEADER STYLES */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header #highScoresButton {
+    background-color: var(--gryfRed1);
+    color: var(--gryfGold1);
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header #timer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* LOCAL STYLES */
+#choices li{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.standard_button {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: var(--gryfRed2);
+    color: var(--gryfGold2);
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button_style {
+    width: 50%;
+    background-color: var(--gryfRed2);
+    color: var(--gryfGold2);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#highScoresButton {
+    background-color: var(--gryfRed1);
+    color: var(--gryfGold1);
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#startButton {
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.centered_button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.button-style.correct {
+    border-radius: 10px;
+    background-color: green;
+}
+
+.button-style.wrong {
+    border-radius: 10px;
+    background-color: red;
+}
+
+.score_table {
+    margin: 0 auto;
+    background-color: var(--gryfGold1);
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.score_table tr td {
+    padding: 5%;
+    font-size: 18px;
+    border: 1px solid var(--gryfRed1);
+}
