@@ -106,12 +106,11 @@ function checkAnswer(event) {
     } else {
         selectedChoice.className += " wrong";
         showResult(selectedChoice, false);
-    }
-
-    timeLeft -= 5;
-    if (timeLeft <= 0) {
-        clearInterval(timerInterval);
-        endQuiz();
+        timeLeft -= 5;
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            endQuiz();
+        }
     }
 
     timerEl.innerText = "TIME LEFT: " + timeLeft + " seconds";
