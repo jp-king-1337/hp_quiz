@@ -31,8 +31,8 @@ var questionData = [
     },
     {
     question: "Who is Harry Potter's best friend?",
-    choices: ["Neville Longbottom", "Draco Malfoy", "Hermione Granger", "Luna Lovegood"],
-    answer: "Hermione Granger"
+    choices: ["Ronald Weasley", "Draco Malfoy", "Hermione Granger", "Luna Lovegood"],
+    answer: "Ronald Weasley"
     },
     {
     question: "What is the name of the prison guarded by Dementors in the Harry Potter series?",

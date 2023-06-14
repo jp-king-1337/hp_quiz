@@ -7,7 +7,7 @@ var timerEl = document.getElementById("timer");
 var nameInput;
 var timerInterval;
 var score = 0;
-var timeLeft = 60;
+var timeLeft = 75;
 
 
 
